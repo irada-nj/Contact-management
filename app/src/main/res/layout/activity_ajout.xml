@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ii"
+    android:orientation="vertical"
+    tools:context=".Ajout">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/st_titre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajout"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/ednom_ajout"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:textColor="#171616" />
+
+    <EditText
+        android:id="@+id/edprenom_ajout"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Prénom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edphone_ajout"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Saisir numéro"
+        android:inputType="phone"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnvalide_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3748A6"
+            android:text="Ajouter"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/btnqte_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3748A6"
+            android:text="Quitter"
+            android:typeface="normal" />
+    </LinearLayout>
+</LinearLayout>
